@@ -31,5 +31,7 @@ Movement
 ├── Swift/
 │   │   ├── ryansmega3/ # Motion Tracking Demo
 │   │   ├── ryansmega4/ # Final Swift Project of Submitted Version
-│   │   ├── ryansmega4_demo1/ # Archived Working Version 
+│   │   ├── ryansmega4_demo1/ # Archived Working Version
+├── .gitignore/
+├── README.md/
 ```
