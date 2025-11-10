@@ -1,4 +1,5 @@
-![idk](https://github.com/ryankosgit/Movement/blob/master/swift/ryansmega4/icon.png)
+
+<img src="https://github.com/ryankosgit/Movement/blob/master/swift/ryansmega4/icon.png=width=48" width="300" height="300">
 
 # MOVEMENT
 Movement is iOS app built by Ryan & Ryan at the AI ATL 2025 Hackathon at Georgia Tech for the [Matt Steele challenge](https://chief-trowel-a22.notion.site/AI-ATL-2025-Hacker-Guide-2671bd5ee852805fb160de97b49c712d#2a41bd5ee85280a9a53dc097e077b954) . The application leverages real-time motion tracking from your iPhone and AirPods to monitor and identify your movements in order to help you acheive your set fitness goals. 
