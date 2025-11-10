@@ -1,5 +1,7 @@
+![idk](https://github.com/ryankosgit/Movement/blob/master/swift/ryansmega4/icon.png)
+
 # MOVEMENT
-Movement is iOS app built by Ryan & Ryan at the AI ATL 2025 Hackathon at Georgia Tech for the [Matt Steele challenge] (https://chief-trowel-a22.notion.site/AI-ATL-2025-Hacker-Guide-2671bd5ee852805fb160de97b49c712d#2a41bd5ee85280a9a53dc097e077b954) . The application leverages real-time motion tracking from your iPhone and AirPods to monitor and identify your movements in order to help you acheive your set fitness goals. 
+Movement is iOS app built by Ryan & Ryan at the AI ATL 2025 Hackathon at Georgia Tech for the [Matt Steele challenge](https://chief-trowel-a22.notion.site/AI-ATL-2025-Hacker-Guide-2671bd5ee852805fb160de97b49c712d#2a41bd5ee85280a9a53dc097e077b954) . The application leverages real-time motion tracking from your iPhone and AirPods to monitor and identify your movements in order to help you acheive your set fitness goals. 
 
 # PROJECT STRUCTURE
 ```text
@@ -16,10 +18,10 @@ Movement
 │   │   │   ├── train.py                                     #unused notebook for testing
 │   ├── ├── notebooks/
 │   │   │   ├── .ipynb_checkpoints/
-│   │   │   │   ├── 01_visualize_data-checkpoint.ipynb
-│   │   │   │   ├── 04_create_coreML-checkpoint.ipynb
-│   │   │   │   ├── compare_data-checkpoint.ipynb
-│   │   │   │   ├── train_basic_model-checkpoint.ipynb
+│   │   │   │   ├── 01_visualize_data-checkpoint.ipynb       # Visualized Data
+│   │   │   │   ├── 04_create_coreML-checkpoint.ipynb        # Convert Scikit learn to Swift's CoreML
+│   │   │   │   ├── compare_data-checkpoint.ipynb            # Compare Movement Data
+│   │   │   │   ├── train_basic_model-checkpoint.ipynb       # Train Model
 │   │   │   ├── 01_visualize_data.ipynb
 │   │   │   ├── 02_compare_data.ipynb
 │   │   │   ├── 03_train_basic_model.ipynb
@@ -30,7 +32,7 @@ Movement
 │   │   │   ├── exercise_rf_windowed.pkl
 ├── Swift/
 │   │   ├── ryansmega3/ # Motion Tracking Demo
-│   │   ├── ryansmega4/ # Final Swift Project of Submitted Version
+│   │   ├── ryansmega4/ # Final Swift/iOS Project of Submitted Version
 │   │   ├── ryansmega4_demo1/ # Archived Working Version
 ├── .gitignore/
 ├── README.md/
