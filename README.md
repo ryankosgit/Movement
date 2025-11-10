@@ -1,7 +1,7 @@
 <img src="https://github.com/ryankosgit/Movement/blob/master/swift/ryansmega4/icon.png" width="150" height="150">
 
 # MOVEMENT
-Movement is iOS app built by Ryan & Ryan at the AI ATL 2025 Hackathon at Georgia Tech for the [Matt Steele challenge](https://chief-trowel-a22.notion.site/AI-ATL-2025-Hacker-Guide-2671bd5ee852805fb160de97b49c712d#2a41bd5ee85280a9a53dc097e077b954) . The application leverages real-time motion tracking from your iPhone and AirPods to monitor and identify your movements in order to help you acheive your set fitness goals. 
+Movement is iOS app built by Ryan B & Ryan K at the AI ATL 2025 Hackathon at Georgia Tech for the [Matt Steele challenge](https://chief-trowel-a22.notion.site/AI-ATL-2025-Hacker-Guide-2671bd5ee852805fb160de97b49c712d#2a41bd5ee85280a9a53dc097e077b954). 
 
 # PROJECT STRUCTURE
 ```text
@@ -15,25 +15,38 @@ Movement
 │   │   │   ├── ryank_pushup_20reps_1762612126.xlsx          #Ryan K's 20 Recorded Pushups
 │   │   │   ├── ryank_squat_20reps_1762617710.xlsx           #Ryan K's 20 Recorded Squats
 │   ├── ├── models/
-│   │   │   ├── train.py                                     #unused notebook for testing
+│   │   │   ├── train.py                                    
 │   ├── ├── notebooks/
-│   │   │   ├── .ipynb_checkpoints/
-│   │   │   │   ├── 01_visualize_data-checkpoint.ipynb       # Visualized Data
-│   │   │   │   ├── 04_create_coreML-checkpoint.ipynb        # Convert Scikit learn to Swift's CoreML
-│   │   │   │   ├── compare_data-checkpoint.ipynb            # Compare Movement Data
-│   │   │   │   ├── train_basic_model-checkpoint.ipynb       # Train Model
-│   │   │   ├── 01_visualize_data.ipynb
-│   │   │   ├── 02_compare_data.ipynb
-│   │   │   ├── 03_train_basic_model.ipynb
-│   │   │   ├── 04_create_coreML.ipynb
-│   │   │   ├── ExerciseClassifier.mlmodel
-│   │   │   ├── ExerciseClassifier_Windowed.mlmodel
-│   │   │   ├── exercise_rf.pkl
-│   │   │   ├── exercise_rf_windowed.pkl
+│   │   │   ├── 01_visualize_data.ipynb                      # Visualized Data
+│   │   │   ├── 02_compare_data.ipynb                        # Compare Movement Data
+│   │   │   ├── 03_train_basic_model.ipynb                   # Trained SK learn to identify exercise - 98% accurate
+│   │   │   ├── 04_create_coreML.ipynb                       # Convert SK learn to Swift CORE ML
+│   │   │   ├── ExerciseClassifier.mlmodel                   # Demo 1 of Exercise Classifier
+│   │   │   ├── ExerciseClassifier_Windowed.mlmodel          # Final Working Exercise Classifier
+│   │   │   ├── exercise_rf.pkl                              # Data Prototype for Swift App
+│   │   │   ├── exercise_rf_windowed.pkl                     # Final Working Data for Swift App
 ├── Swift/
 │   │   ├── ryansmega3/ # Motion Tracking Demo
+│   │   │   ├── ...
 │   │   ├── ryansmega4/ # Final Swift/iOS Project of Submitted Version
+│   │   │   ├── ...
 │   │   ├── ryansmega4_demo1/ # Archived Working Version
+│   │   │   ├── ...
 ├── .gitignore/
 ├── README.md/
 ```
+
+# Project Summary
+- Movement tracks your body's live motion from your AirPods and iPhone leveraging Swift's CoreMotion library and haptic feedback to identify and count your exercise reps to assist in you acheive your fitness goals that you set. 
+- The three exercise tracks are jumping jacks, squats, and push-ups. You can either use Free Mode, which automatically detects 1 of the 3 exercises integrated in our app, or you can build a routine and follow it using the Guided Workout tools. 
+
+# Data & Model Training
+- We created our own data by recording ourselves performing 20 reps of each exercise. Our application tracks iPhone and Airpods' acceleration and rotation, and we experimented using different exercise form and having our phone in different pockets for diversification.
+- Scikit-learn was used to train the model for recognizing user movements, and acheived a 98% accuracy rate. A rep is counted when the phone's angular velocity reach the minimum and maximum thresholds we designed observing our recorded data.
+
+# File and Info
+There are a lot of files and folders...so here's a summary:
+
+The ```/raw``` folder in ```/data``` contains our real life movements that we used to train the data. 
+
+Thank you to Georgia Tech for hosting this hackathon and the opportunity to participate! 
