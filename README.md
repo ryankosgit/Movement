@@ -26,12 +26,13 @@ Movement
 │   │   │   ├── exercise_rf.pkl                              # Data Prototype for Swift App
 │   │   │   ├── exercise_rf_windowed.pkl                     # Final Working Data for Swift App
 ├── Swift/
-│   │   ├── ryansmega3/ # Motion Tracking Demo
-│   │   │   ├── ...
-│   │   ├── ryansmega4/ # Final Swift/iOS Project of Submitted Version
-│   │   │   ├── ...
-│   │   ├── ryansmega4_demo1/ # Archived Working Version
-│   │   │   ├── ...
+│   │   ├── ryansmega4/ # Final Swift Project Folder
+│   │   │   ├── ryansmega4/
+│   │   │   │   ├── ContentView.swift                        # Application UI
+│   │   │   │   ├── RealtimeExerciseClassifier.swift         # Real Time Exercise/Movement Classifier
+│   │   │   │   ├── RoutineManagementView.swift              # Routine Builder View
+│   │   │   │   ├── GuidedWorkoutView.swift                  # Guided Workout View
+│   │   │   │   ├── ...                                      # Misc. Swift Files
 ├── .gitignore/
 ├── README.md/
 ```
@@ -45,8 +46,11 @@ Movement
 - Scikit-learn was used to train the model for recognizing user movements, and acheived a 98% accuracy rate. A rep is counted when the phone's angular velocity reach the minimum and maximum thresholds we designed observing our recorded data.
 
 # File and Info
-There are a lot of files and folders...so here's a summary:
+The ```/raw``` folder in ```/data``` contains our real life exercise movements that we used to train the data. 
 
-The ```/raw``` folder in ```/data``` contains our real life movements that we used to train the data. 
+The ```notebooks/``` folder contains files of our visualized data, our trained Scikit-learn model, SKlearn to CoreML conversion for the Swift app to understand, and a final exercise classifier and data for the Swift app. 
 
+```ryansmega4/``` is the Swift folder that contains the full Swift application. Inside it contains files with the app's UI, movement trackers, and other tools for the application's functionality. 
+
+#Thank You
 Thank you to Georgia Tech for hosting this hackathon and the opportunity to participate! 
