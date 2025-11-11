@@ -3,12 +3,12 @@
 # MOVEMENT
 Movement is iOS app built by Ryan B & Ryan K at the AI ATL 2025 Hackathon at Georgia Tech for the [Matt Steele challenge](https://chief-trowel-a22.notion.site/AI-ATL-2025-Hacker-Guide-2671bd5ee852805fb160de97b49c712d#2a41bd5ee85280a9a53dc097e077b954). It leverages machine learning and iOS development features to help users acheive their workout goals.
 
-# README GUIDE
-## PROJECT STRUCTURE
-## PROJECT SUMMARY
-## DATA & MODEL TRAINING
-## FILE & INFO
-## INSIDE THE APP (Video/Images Included)
+## README GUIDE
+-  PROJECT STRUCTURE
+-  PROJECT SUMMARY
+-  DATA & MODEL TRAINING
+-  FILE & INFO
+-  INSIDE THE APP (Video/Images Included)
 
 
 # PROJECT STRUCTURE
