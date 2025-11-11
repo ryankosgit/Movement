@@ -54,16 +54,24 @@ The ```notebooks/``` folder contains files of our visualized data, our trained S
 
 # Inside the App
 ## Home Page
-<img width="235.8" height="511.2" alt="IMG_1270" src="https://github.com/user-attachments/assets/000ccc4d-8fc8-4c11-b3cf-95fd911fe2f0" />
+
+<img width="190" height="450" alt="IMG_1270" src="https://github.com/user-attachments/assets/000ccc4d-8fc8-4c11-b3cf-95fd911fe2f0" />
 
 The home page contains the App title and three buttons for Free Mode, Build Workout Routines, and Start Workout Routine.
 ### Free Mode
-https://github.com/user-attachments/assets/fe600392-bdb1-43be-9584-175ad1b0dd5e
+
+<img width="190" height="450" alt="IMG_1274" src="https://github.com/user-attachments/assets/a64776b8-f91e-464e-9d4d-7cbd2367e529" /> https://github.com/user-attachments/assets/b95c48ca-71a8-480e-b3ed-e52dc986bf83
 
 Free mode allows you to freely perform any of the exercise (jumping jack, squat, and/or pushup) while tracking your spacial movement metrics and counting your reps for each exercise. 
 ### Build Workout Routines
+
+<img width="190" height="450" alt="IMG_1277" src="https://github.com/user-attachments/assets/a0d1a0f3-b732-4ea2-a0c7-6ace7a64731f" />
+
 This allows you to design any workout in order for you to complete using the Guided Workout tool.
 ### Start Guided Workout
+
+https://github.com/user-attachments/assets/fe600392-bdb1-43be-9584-175ad1b0dd5e
+
 Here's where the magic is. Upon selecting which of your workout routines you want to pursue, simply put the phone in your pocket and let your body do the rest.
 
 # Thank You
