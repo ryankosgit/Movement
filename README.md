@@ -49,6 +49,10 @@ Movement
 - The three exercise tracks are jumping jacks, squats, and push-ups. You can either use Free Mode, which automatically detects 1 of the 3 exercises integrated in our app, or you can build a routine and follow it using the Guided Workout tools. 
 
 # Data & Model Training
+
+<img width="800" height="450" alt="Screenshot 2025-11-10 at 6 11 17 PM" src="https://github.com/user-attachments/assets/473672df-0dab-4de8-917d-6b9060b365b3" />
+
+
 - We created our own data by recording ourselves performing 20 reps of each exercise. Our application tracks iPhone and Airpods' acceleration and rotation, and we experimented using various exercise form and having our phone in both the right/left pockets, and wore different pants for sample diversification.
 - Scikit-learn was used to train the model for recognizing user movements, and acheived a 98% accuracy rate. After a warm up, each rep is counted when the phone's angular velocity reach the minimum and maximum thresholds we designed observing our recorded data.
 
@@ -69,9 +73,10 @@ The home page contains the App title and three buttons for Free Mode, Build Work
 
 <img width="150" height="300" alt="IMG_1274" src="https://github.com/user-attachments/assets/a64776b8-f91e-464e-9d4d-7cbd2367e529" /> 
 
-https://github.com/user-attachments/assets/b95c48ca-71a8-480e-b3ed-e52dc986bf83
+![ezgif-1b0af2d33b466380 (1)](https://github.com/user-attachments/assets/5e316c1c-1ad6-463e-9bf8-d585581bcc3f)
+![ezgif-1b0af2d33b466380](https://github.com/user-attachments/assets/7cf2c048-9728-44a1-bca0-b06d2528393f)
 
-Free mode recognizes any exercise your are currently doing (jumping jack, squat, and/or pushup) while tracking your spacial movement metrics and counting your reps for each exercise. 
+Free mode recognizes any exercise your are currently doing (jumping jack, squat, and/or pushup) while tracking your spacial movement metrics and counting your reps for each exercise.
 ### Build Workout Routines
 
 <img width="150" height="300" alt="IMG_1277" src="https://github.com/user-attachments/assets/a0d1a0f3-b732-4ea2-a0c7-6ace7a64731f" />
