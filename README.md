@@ -73,7 +73,7 @@ The home page contains the App title and three buttons for Free Mode, Build Work
 
 <img width="150" height="300" alt="IMG_1274" src="https://github.com/user-attachments/assets/a64776b8-f91e-464e-9d4d-7cbd2367e529" /> 
 
-<img width="150" height="300" alt="IMG_1129", src="https://github.com/user-attachments/assets/7cf2c048-9728-44a1-bca0-b06d2528393f" />
+<img width="150" height="300" alt="IMG_1129" src="https://github.com/user-attachments/assets/7cf2c048-9728-44a1-bca0-b06d2528393f" />
 
 Free mode recognizes any exercise your are currently doing (jumping jack, squat, and/or pushup) while tracking your spacial movement metrics and counting your reps for each exercise.
 ### Build Workout Routines
