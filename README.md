@@ -1,7 +1,7 @@
 <img src="https://github.com/ryankosgit/Movement/blob/master/swift/ryansmega4/icon.png" width="150" height="150">
 
 # MOVEMENT
-Movement is iOS app built by Ryan B & Ryan K at the AI ATL 2025 Hackathon at Georgia Tech for the [Matt Steele challenge](https://chief-trowel-a22.notion.site/AI-ATL-2025-Hacker-Guide-2671bd5ee852805fb160de97b49c712d#2a41bd5ee85280a9a53dc097e077b954). 
+Movement is iOS app built by Ryan B & Ryan K at the AI ATL 2025 Hackathon at Georgia Tech for the [Matt Steele challenge](https://chief-trowel-a22.notion.site/AI-ATL-2025-Hacker-Guide-2671bd5ee852805fb160de97b49c712d#2a41bd5ee85280a9a53dc097e077b954). It leverages machine learning and iOS development features to help users acheive their workout goals.
 
 # PROJECT STRUCTURE
 ```text
@@ -42,8 +42,8 @@ Movement
 - The three exercise tracks are jumping jacks, squats, and push-ups. You can either use Free Mode, which automatically detects 1 of the 3 exercises integrated in our app, or you can build a routine and follow it using the Guided Workout tools. 
 
 # Data & Model Training
-- We created our own data by recording ourselves performing 20 reps of each exercise. Our application tracks iPhone and Airpods' acceleration and rotation, and we experimented using different exercise form and having our phone in different pockets for diversification.
-- Scikit-learn was used to train the model for recognizing user movements, and acheived a 98% accuracy rate. A rep is counted when the phone's angular velocity reach the minimum and maximum thresholds we designed observing our recorded data.
+- We created our own data by recording ourselves performing 20 reps of each exercise. Our application tracks iPhone and Airpods' acceleration and rotation, and we experimented using various exercise form and having our phone in both the right/left pockets, and wore different pants for sample diversification.
+- Scikit-learn was used to train the model for recognizing user movements, and acheived a 98% accuracy rate. After a warm up, each rep is counted when the phone's angular velocity reach the minimum and maximum thresholds we designed observing our recorded data.
 
 # File and Info
 The ```/raw``` folder in ```/data``` contains our real life exercise movements that we used to train the data. 
@@ -52,5 +52,5 @@ The ```notebooks/``` folder contains files of our visualized data, our trained S
 
 ```ryansmega4/``` is the Swift folder that contains the full Swift application. Inside it contains files with the app's UI, movement trackers, and other tools for the application's functionality. 
 
-#Thank You
+# Thank You
 Thank you to Georgia Tech for hosting this hackathon and the opportunity to participate! 
