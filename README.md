@@ -61,7 +61,7 @@ The ```notebooks/``` folder contains files of our visualized data, our trained S
 ```ryansmega4/``` is the Swift folder that contains the full Swift application. Inside it contains files with the app's UI, movement trackers, and other tools for the application's functionality. 
 
 # Inside the App
-## Home Page
+### Home Page
 
 <img width="190" height="450" alt="IMG_1270" src="https://github.com/user-attachments/assets/000ccc4d-8fc8-4c11-b3cf-95fd911fe2f0" />
 
