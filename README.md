@@ -58,8 +58,9 @@ The ```notebooks/``` folder contains files of our visualized data, our trained S
 
 The home page contains the App title and three buttons for Free Mode, Build Workout Routines, and Start Workout Routine.
 ### Free Mode
-Free mode allows you to freely perform ![Uploading IMG_1270.PNG…]()
-any of the exercise (jumping jack, squat, and/or pushup) while tracking your spacial movement metrics and counting your reps for each exercise. 
+https://github.com/user-attachments/assets/fe600392-bdb1-43be-9584-175ad1b0dd5e
+
+Free mode allows you to freely perform any of the exercise (jumping jack, squat, and/or pushup) while tracking your spacial movement metrics and counting your reps for each exercise. 
 ### Build Workout Routines
 This allows you to design any workout in order for you to complete using the Guided Workout tool.
 ### Start Guided Workout
