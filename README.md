@@ -5,7 +5,7 @@ Movement is iOS app built by Ryan B & Ryan K at the AI ATL 2025 Hackathon at Geo
 
 ## README GUIDE
 -  PROJECT STRUCTURE
--  PROJECT SUMMARY
+-  PROJECT SUMMARYx
 -  DATA & MODEL TRAINING
 -  FILE & INFO
 -  INSIDE THE APP
