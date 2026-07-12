@@ -5,7 +5,7 @@ Movement is iOS app built by Ryan B & Ryan K at the AI ATL 2025 Hackathon at Geo
 
 ## README GUIDE
 -  PROJECT STRUCTURE
--  PROJECT SUMMARYx
+-  PROJECT SUMMARY
 -  DATA & MODEL TRAINING
 -  FILE & INFO
 -  INSIDE THE APP
@@ -45,7 +45,7 @@ Movement
 ```
 
 # Project Summary
-- Movement tracks your body's live motion from your AirPods and iPhone leveraging Swift's CoreMotion library and haptic feedback to identify and count your exercise reps to assist in you acheive your fitness goals that you set. 
+- Movement tracks your body's live motion from your AirPods and iPhone leveraging a translated Swift's CoreMotion library ML library from Scikit-learn, Random Forest, and iOS haptic feedback to identify and count your exercise reps to assist in you acheive your fitness goals that you set. 
 - The three exercise tracks are jumping jacks, squats, and push-ups. You can either use Free Mode, which automatically detects 1 of the 3 exercises integrated in our app, or you can build a routine and follow it using the Guided Workout tools. 
 
 # Data & Model Training
